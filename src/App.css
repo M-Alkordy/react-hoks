@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+section{
+  height: 1500px;
+}
+
+section:nth-child(even){
+  background-color: #61dafb;
+}
+
+section:nth-child(odd){
+  background-color: #282c34;
+}
+
+.card{
+  width: 30%;
+}
+
+.bg-aqua{
+  background-color: #61dafb;
+}
